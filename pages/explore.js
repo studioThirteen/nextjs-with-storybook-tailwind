@@ -1,15 +1,13 @@
 import Header from '../components/Header';
 import HeroNFTContent from '../components/HeroNFTContent';
-import NFTCards from '../components/NFTCards';
 import OpenSea from '../components/OpenSea';
 import Footer from '../components/Footer';
 
-export default function Home() {
+export default function Explore() {
     return (
         <>
         <Header />
           <HeroNFTContent />
-          <NFTCards />
           <OpenSea />
         <Footer />
         </>
