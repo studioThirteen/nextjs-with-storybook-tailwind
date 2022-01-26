@@ -2,10 +2,10 @@ import Article from '../pages/index';
 
 const articleMock = {
     id: 3,
-    author: 'Dave Canterbury',
-    company: 'Bushcraft 101',
-    image_url: 'https://via.placeholder.com/200/200',
-    content: 'David Michael Canterbury born September 19, 1963 is a survival expert'
+    author: 'ei9h7',
+    company: 'studioThirteen',
+    image_url: 'https://placekitten.com/200/200',
+    content: 'ei9h7, born Jan 32, 2022 is an enigma'
 }
 
 const Story = (props) => <Article {...props} />

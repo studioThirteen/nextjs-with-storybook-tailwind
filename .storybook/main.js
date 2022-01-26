@@ -6,7 +6,7 @@ module.exports = {
     ],
     "addons": [
         require.resolve('storybook-addon-grid/preset'),
-        {
+        /* {
             name: '@storybook/addon-storysource',
             options: {
                 rule: {
@@ -17,9 +17,17 @@ module.exports = {
                     prettierConfig: { printWidth: 80, singleQuote: false },
                 },
             },
-        },
+        }, */
         '@geometricpanda/storybook-addon-iframe',
-        'storybook-addon-next-router',
+        'storybook-addon-next-router', 
+        {
+          name: '@storybook/addon-postcss',
+            options: {
+               postcssLoaderOptions: {
+                  implementation: require('postcss'),
+                },
+            },
+        },
         "@storybook/addon-links",
         "@storybook/addon-essentials"
     ]

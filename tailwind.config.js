@@ -5,7 +5,7 @@ module.exports = {
         // Read more about this here: https://tailwindcss.com/docs/installation#building-your-css
         './pages/**/*.js',
     ],
-    darkMode: false,
+    darkMode: true,
     theme: {
         extend: {},
     },
