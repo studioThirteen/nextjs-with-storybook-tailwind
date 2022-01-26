@@ -56,12 +56,6 @@ body {
   text-align: center;
 }
 
-.component-logo {
-  width: "100%";
-  height: "auto";
-  pointer-events: none;
-}
-
 .component-header {
   height: 10vh;
   padding: 0 5vmax;
@@ -106,9 +100,14 @@ iframe {
   justify-content: left;
 }
 
-#leftlogo img {
-  width: 200px;
-  height: 70px;
+.leftlogo {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../public/images/logo.png) no-repeat;
+  width: 200px; /* Width of new image */
+  height: 70px; /* Height of new image */
+  padding-left: 200px; /* Equal to width of new image */
 }
 
 /* TODO
@@ -244,9 +243,15 @@ a.highlight {
     text-align: left;
 }
 .hero-img {
-    height: 901px;
-    width: 602px;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../public/images/nft-art.svg) no-repeat;
+    width: 901px; /* Width of new image */
+    height: 602px; /* Height of new image */
+    padding-left: 901px; /* Equal to width of new image */
 }
+
 .hero-heading {
     font-size: 6rem;
     line-height: 6rem;

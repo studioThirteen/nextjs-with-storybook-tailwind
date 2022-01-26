@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import NftArt from "./assets/nft-art.svg";
+import NftArt from "../public/images/nft-art.svg";
 import BtnPrimaryRoundedFull from "./BtnPrimaryRoundedFull";
 import BtnOutlineRoundedFull from "./BtnOutlineRoundedFull";
 
