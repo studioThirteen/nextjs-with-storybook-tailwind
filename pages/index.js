@@ -29,7 +29,7 @@ Home.defaultProps = {
 }
 
 export const getServerSideProps = async () => {
-  const response = await fetch('http://localhost:3001/api/article')
+  const response = await fetch('http://localhost:3000/api/article')
   const data = await response.json()
 
   if (!data) return { props: {} }
@@ -42,3 +42,4 @@ export const getServerSideProps = async () => {
 }
 
 export default Home
+
