@@ -1,7 +1,6 @@
 // Import the global style enabling tailwind classes
 import '../styles/globals.css'
 import { RouterContext } from "next/dist/shared/lib/router-context"; // next 12
-import { addParameters } from '@storybook/react';
 
 export const parameters = {
     actions: { argTypesRegex: "^on[A-Z].*" },
@@ -15,11 +14,8 @@ export const parameters = {
         gutter: '50px',
         maxWidth: '1024px',
     },
-}
-
-addParameters({
     iframe: {
         url: 'https://opensea.io/assets/0x1301566b3cb584e550a02d09562041ddc4989b91/28',
         timeout: 1000,
     },
-});
+}
