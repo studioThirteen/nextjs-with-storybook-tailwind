@@ -1,0 +1,22 @@
+/* 
+ Custom UI mods 
+ ! See NOTES in styles.md
+*/
+
+/* default UI changes */
+
+:root {
+  --rounded-box: 0.5rem;
+  --rounded-btn: 0.2rem;
+  --rounded-badge: 1.9rem;
+  --animation-btn: 0.25s;
+  --animation-input: 0.2s;
+  --padding-card: 2rem;
+  --navbar-padding: 0.5rem;
+  --border-btn: 1px;
+}
+
+.btn { @apply rounded }
+
+
+

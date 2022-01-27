@@ -2,7 +2,7 @@ import React from 'react';
 import { iframeResizer } from 'iframe-resizer'
 
 export const ASSET_URL =
-    "https://opensea.io/assets/0x1301566b3cb584e550a02d09562041ddc4989b91/28";
+    "https://opensea.io/assets?embed=true";
 
 const embeddedUrl = `${ASSET_URL}`
 
@@ -15,7 +15,7 @@ class OpenSea extends React.Component {
     render() {
         return (
             <main className="opensea-embed-main">
-                <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} frameBorder='0' allowFullScreen></iframe>
+                <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} width="100%" height="100%" frameBorder='0' allowFullScreen></iframe>
             </main>
         );
     }

@@ -1,0 +1,28 @@
+.component-footer {
+  min-height: 10vh;
+  /* background-color: #6229ca; */
+  text-align: left;
+}
+
+.leftlogo img {
+  width: 100%; 
+  height: auto;
+}
+
+/* Footer from figma */
+
+
+.backToTop {
+  font-size: 24px;
+  font-family: "Druk Wide Web";
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+.letsConnect {
+  font-size: 56px;
+  font-weight: 500;
+  font-family: "Druk Wide Web";
+  line-height: 65px;
+  text-align: left;
+}
