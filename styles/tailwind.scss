@@ -4,9 +4,11 @@
 @import "tailwind/components";
 @import "tailwind/utilities";
 
-/* Custom */
+/* UI Customizations */
 
-@import "./custom/buttons";
+@import "./custom/uimods";
+
+/* Component SASS styles */
 @import "./custom/breakpoints";
 @import "./custom/footer";
 @import "./custom/header";
@@ -14,3 +16,4 @@
 @import "./custom/navbar";
 @import "./custom/opensea";
 @import "./custom/social";
+
