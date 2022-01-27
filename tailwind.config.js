@@ -1,15 +1,8 @@
 module.exports = {
-    purge: {
-        // This is not present inside the default configuration
-        // but it's good to build your production application
-        // Read more about this here: https://tailwindcss.com/docs/installation#building-your-css
-        content: ['./pages/**/*.js'],
-        options: {
-            safelist: [
-                /data-theme$/
-            ]
-        },
-    },
+    content: [
+      "./pages/**/*.{js,ts,jsx,tsx}",
+      "./components/**/*.{js,ts,jsx,tsx}",
+    ],
     darkMode: true,
     theme: {
         fontFamily: {'sans': 'Druk Wide Web'},

@@ -10,7 +10,6 @@
 
 /* Component styles */
 @import "./custom/breakpoints";
-@import "./custom/hero";
 @import "./custom/opensea";
 
 html,

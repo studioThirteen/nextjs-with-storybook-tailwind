@@ -10,17 +10,15 @@ export default function Home() {
       <Head>
         <html data-theme="synthwave" />
       </Head>
-          <header class="w-screen"><Header /></header>
+          <header className="w-screen"><Header /></header>
             <main>
-              <div class="w-screen">
                 <HeroNFTContent />
-                </div>
-              <div class="w-screen">
+              <div className="w-screen">
                 <OpenSea />
               </div>
             </main>
-          <div class="divider"></div>
-          <footer class="w-screen bg-primary-focus"><Footer /></footer>
+          <div className="divider"></div>
+          <footer className="w-screen bg-secondary-focus"><Footer /></footer>
       </>
     );
 }
