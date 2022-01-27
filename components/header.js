@@ -1,48 +1,30 @@
 import React from 'react';
 import Head from 'next/head';
+import Container from '../components/container';
+import Navigation from '../components/navigation';
+import WalletConnect from '../components/walletconnect';
 
 export default function Header() {
     return (
         <>
         <Head>
             <html data-theme="studio13" />
-        </Head>
-        <header className="component-header">
-        <div className="nav-div-1">
-            <span className="nav-span-1"><img className="leftlogo" src="/logo.png" /></span>
-            <span className="nav-span-2"><i className="material-icons right">menu</i></span>
-        </div>
+        </Head>     
+        <header class="w-screen">
+            <Container>
+                <div class="flex flex-row md:flex-column justify-between items-center w-full px-8 pt-8 pb-10">
+                    <div class="flex-none w-64 items-start">
+                        <img class="h-full sm:ml-8 sm:pr-8" src="/headerlogo-1x.png" alt="studioThirteen" />
+                    </div>
+                    <div class="flex flex-row md:flex-column w-min items-center">
+                        <Navigation links={links} />
+                    </div>
+                    <div class="flex-initial w-64 items-end">
+                        <WalletConnect />
+                    </div>
+                </div>
+            </Container>
         </header>
         </>
     );
 }
-
-
-<div className="w-screen">
-    <Container>
-        <div className="flex items-center font-open-sans justify-between h-24 w-full">
-            <div className="flex h-full justify-between items-center">
-                <div className="hidden sm:flex pt-2 h-full w-32">
-                    <picture>
-                        <source srcSet={webpSrc} type="image/webp" />
-                        <source srcSet={imgSrc} type="image/jpeg" />
-                        <img
-                            src={imgSrc}
-                            alt="Mike Wallis headshot"
-                            className="h-full sm:ml-8 sm:pr-8"
-                        />
-                    </picture>
-                </div>
-                <div className="w-10/12">
-                    <h1 className="text-2xl sm:text-3xl font-light font-lato">Wallis Family Mediation</h1>
-                    <p className="text-gray-333 text-sm">
-                        A
-                        <em className="text-black"> personal </em>
-                        service from a retired senior banker and family magistrate
-                    </p>
-                </div>
-            </div>
-            <Navigation links={links} />
-        </div>
-    </Container>
-</div>
