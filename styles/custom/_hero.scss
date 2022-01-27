@@ -1,0 +1,34 @@
+/*
+ ! Hero 
+*/
+
+.hero-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: "Druk Wide Web";
+    text-align: left;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    /* width: 901px; 
+    height: 602px; */
+}
+
+.hero-heading {
+    position: relative;
+    font-size: 6rem;
+    line-height: 6rem;
+    color: #ffffff;
+}
+.hero-subheading {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #f9a8d4;
+}

@@ -1,0 +1,106 @@
+/*
+ ! Navbar
+*/
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  text-align: right;
+  color: #fff;
+  font-size: large;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  background-color: #6F4AF0 !important;
+  border: none !important;
+}
+
+#navbar-toggler-icon {
+  color: black;
+}
+
+/* underline effect for current page */
+a.left {
+  position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+/* highlight current page */
+a.highlight {
+  color: white !important;
+}
+
+/* TODO
+ ! Nav Bar
+*/
+.nav-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.nav-div-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 21px;
+  color: #ffffff;
+}
+.nav-span-1 {
+  font-size: 52px;
+  font-family: "Roboto Mono";
+  line-height: 60px;
+}
+.nav-span-2 {
+  font-size: 20px;
+  font-family: "Roboto Mono";
+  line-height: 23px;
+}
+.nav-img-1 {
+  height: 40px;
+  width: 40px;
+}
+.nav-img-2 {
+  height: 40px;
+  width: 40px;
+}
+.nav-img-3 {
+  height: 40px;
+  width: 40px;
+}
+.nav-img-4 {
+  height: 40px;
+  width: 40px;
+}
+.nav-img-5 {
+  height: 40px;
+  width: 40px;
+}
+.nav-img-6 {
+  height: 40px;
+  width: 40px;
+}

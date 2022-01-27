@@ -1,0 +1,16 @@
+/* Tailwind base */
+
+@import "tailwind/base";
+@import "tailwind/components";
+@import "tailwind/utilities";
+
+/* Custom */
+
+@import "./custom/buttons";
+@import "./custom/breakpoints";
+@import "./custom/footer";
+@import "./custom/header";
+@import "./custom/hero";
+@import "./custom/navbar";
+@import "./custom/opensea";
+@import "./custom/social";

@@ -1,15 +1,9 @@
 module.exports = {
     plugins: {
-        tailwindcss: {},
+        'tailwindcss': {},
         'postcss-flexbugs-fixes': {},
-        'postcss-preset-env': {
-            autoprefixer: {
-                flexbox: 'no-2009',
-            },
-            stage: 3,
-            features: {
-                'custom-properties': false,
-            },
-        },
+        'postcss-preset-env': {},
+        'postcss-nested': {},
+        'postcss-easy-import': { prefix: '_', extensions: ['.css', '.scss'] },
     },
 };

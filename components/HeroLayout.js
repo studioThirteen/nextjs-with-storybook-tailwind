@@ -1,14 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import NftArt from "../public/images/nft-art.svg";
 import BtnPrimaryRoundedFull from "./BtnPrimaryRoundedFull";
 import BtnOutlineRoundedFull from "./BtnOutlineRoundedFull";
 
 const HeroLayout = (props) => {
     return (
         <div className="hero-div">
-            <img className="hero-img" src={NftArt} />
-            <span className="hero-heading">
+            <div className="hero-img"><img className="hero-img" src="/nft-art.svg" /></div>
+                <span className="hero-heading">
                 <span className="hero-subheading">
                     {props.subHeading || "subHeading"}
                 </span>

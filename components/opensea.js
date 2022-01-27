@@ -2,7 +2,7 @@ import React from 'react';
 import { iframeResizer } from 'iframe-resizer'
 
 export const ASSET_URL =
-    "https://opensea.io/assets/0x1301566b3cb584e550a02d09562041ddc4989b91/28&theme=dark";
+    "https://opensea.io/assets/0x1301566b3cb584e550a02d09562041ddc4989b91/28";
 
 const embeddedUrl = `${ASSET_URL}`
 
