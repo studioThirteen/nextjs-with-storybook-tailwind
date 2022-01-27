@@ -8,7 +8,7 @@
 
 @import "./custom/uimods";
 
-/* Component SASS styles */
+/* Component styles */
 @import "./custom/breakpoints";
 @import "./custom/footer";
 @import "./custom/header";
@@ -16,4 +16,3 @@
 @import "./custom/navbar";
 @import "./custom/opensea";
 @import "./custom/social";
-
