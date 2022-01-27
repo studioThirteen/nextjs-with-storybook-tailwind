@@ -1,8 +1,5 @@
 module.exports = {
-    content: [
-      "./pages/**/*.{js,ts,jsx,tsx}",
-      "./components/**/*.{js,ts,jsx,tsx}",
-    ],
+    content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
     darkMode: true,
     theme: {
         fontFamily: {'sans': 'Druk Wide Web'},
@@ -49,7 +46,8 @@ module.exports = {
             'dark',
             'light',
             'CMYK',
-            'synthwave'
+            'synthwave',
+            'cyberpunk'
         ],
     },
 }

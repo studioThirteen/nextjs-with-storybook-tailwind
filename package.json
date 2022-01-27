@@ -46,6 +46,11 @@
     "@tailwindcss/typography": "^0.5.0",
     "daisyui": "^1.25.4",
     "iframe-resizer": "^4.3.2",
-    "react-icons": "^4.3.1"
+    "isomorphic-unfetch": "^3.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-importer": "^1.0.1",
+    "postcss-nesting": "^10.1.2",
+    "react-icons": "^4.3.1",
+    "sharp": "^0.29.3"
   }
 }

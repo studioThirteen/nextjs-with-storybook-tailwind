@@ -1,4 +1,4 @@
-import Header from '../components/Header';
+import Header from '../components/header';
 import HeroNFTContent from '../components/HeroNFTContent';
 import OpenSea from '../components/OpenSea';
 import Footer from '../components/Footer';
@@ -10,15 +10,11 @@ export default function Home() {
       <Head>
         <html data-theme="synthwave" />
       </Head>
-          <header className="w-screen"><Header /></header>
-            <main>
-                <HeroNFTContent />
-              <div className="w-screen">
-                <OpenSea />
-              </div>
-            </main>
+          <Header />
+          <HeroNFTContent />
+          <OpenSea />
           <div className="divider"></div>
-          <footer className="w-screen bg-secondary-focus"><Footer /></footer>
+          <Footer />
       </>
     );
 }
