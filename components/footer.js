@@ -2,12 +2,9 @@ import React from "react";
 import { FiGithub, FiTwitter } from "react-icons/fi";
 import { FaTelegramPlane, FaInstagram } from "react-icons/fa";
 import { RiDiscordLine } from "react-icons/ri";
-import Container from "../components/container";
 
 export default function Footer() {
   return (
-    <footer class="w-screen">
-      <Container>
         <div class="flex flex-row md:flex-row justify-between items-center w-full px-8 pt-20 pb-10 bg-primary-focus text-white text-right">
           <div class="flex flex-column md:flex-row w-md items-start">
             <span class="font-sans text-2xl font-bold text-left">Back to top</span>
@@ -34,8 +31,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </Container>
-    </footer>
-  )
+   )
 };
 

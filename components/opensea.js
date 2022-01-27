@@ -14,9 +14,7 @@ class OpenSea extends React.Component {
 
     render() {
         return (
-            <main className="opensea-embed-main">
                 <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} width="100%" height="100%" frameBorder='0' allowFullScreen></iframe>
-            </main>
         );
     }
 }

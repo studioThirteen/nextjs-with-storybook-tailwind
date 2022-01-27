@@ -2,11 +2,9 @@ import React from "react";
 
 export default function BtnPrimaryRoundedFull(props) {
     return (
-        <div className="button-primary-rounded">
-            <span className="button-primary-text">
+        <button class="btn btn-primary rounded-full">
                 {props.buttonText || "buttonText"}
-            </span>
-        </div>
+        </button>
     );
 }
 
