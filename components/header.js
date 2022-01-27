@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Container from '../components/container';
 import Navigation from '../components/navigation';
-import WalletConnect from '../components/walletconnect';
+// import WalletConnect from '../components/walletconnect';
 
 export default function Header() {
     return (
@@ -20,7 +20,8 @@ export default function Header() {
                         <Navigation links={links} />
                     </div>
                     <div class="flex-initial w-64 items-end">
-                        <WalletConnect />
+                        {/* <WalletConnect /> */}
+                        <button class="btn btn-primary rounded-full">primary</button> 
                     </div>
                 </div>
             </Container>
